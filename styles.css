@@ -1,6 +1,15 @@
+.hero {
+  margin: 0;
+  padding: 0;
+}
+
 .custom-nav{
     /* background-color: #6D8EC5; */
     background-color: white;
+}
+
+.hero-section{
+    min-height: calc(100vh - 58px);
 }
 
 .about{
