@@ -23,3 +23,19 @@
 .projects{
     /* background-color: #F7E5C1; */
 }
+
+.c-item{
+    height: 480px;
+}
+
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.4);
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
+}
