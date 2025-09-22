@@ -20,13 +20,22 @@
     background-color: #073737;
 }
 
+.about strong {
+  color: #d3ab33; 
+}
+
+
 .services{
-    background-color: #FDFFD4;
+    background-color: #e6f0f3;
 }
 
 .projects{
-    background-color: #D6CBC7;
+    background-color: #686565;
 }
+
+/* .projects-text{
+    color: #d3ab33;
+} */
 
 .c-item{
     height: 480px;
