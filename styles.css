@@ -8,10 +8,6 @@
   padding: 0;
 }
 
-.custom-nav{
-    background-color: white;
-}
-
 .hero-section{
     min-height: calc(100vh - 66px);
 }
