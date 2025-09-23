@@ -12,10 +12,6 @@
   padding: 0;
 }
 
-.hero-section{
-    min-height: calc(100vh - 66px);
-}
-
 .about{
     background-color: #073737;
 }
