@@ -12,6 +12,33 @@
   padding: 0;
 }
 
+.hero-section h1 {
+  color: #ffffff; 
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8); 
+}
+
+.hero-section p {
+  color: #e6e6e6;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7);
+}
+
+.hero-section {
+  position: relative;
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55); 
+  z-index: 1;
+}
+
+.hero-text {
+  position: relative;
+  z-index: 2; 
+}
+
 .about{
     background-color: #073737;
 }
