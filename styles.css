@@ -56,10 +56,6 @@
     background-color: #686565;
 }
 
-/* .projects-text{
-    color: #d3ab33;
-} */
-
 .c-item{
     height: 480px;
 }
@@ -75,4 +71,11 @@
   transform: translateY(-5px);
   transition: all 0.3s ease;
 }
+
+@media (max-height: 700px) {
+  .hero-section {
+    min-height: 100dvh; /* dynamic viewport height (newer browsers) */
+  }
+}
+
 
