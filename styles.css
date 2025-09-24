@@ -60,6 +60,11 @@ body {
     background-color: white;
 }
 
+.service h5,
+.service p {
+  text-shadow: 0 2px 4px rgba(0,0,0,0.8);
+}
+
 .projects{
     background-color: white;
 }
