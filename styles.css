@@ -101,6 +101,22 @@ body {
     background-color: white;
 }
 
+.projects-text{
+  position: relative;
+}
+
+.projects-text::after{
+  content: "";
+  position: absolute;
+  display: block;
+  background-color: #d3ab33;
+  height: 3px;
+  width: clamp(4rem, 12vw, 12vw);
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 0.6rem;
+}
+
 .c-item{
     height: 480px;
 }
