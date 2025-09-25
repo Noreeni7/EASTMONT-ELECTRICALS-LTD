@@ -76,6 +76,22 @@ body {
     background-color: white;
 }
 
+.services-text{
+  position: relative;
+}
+
+.services-text::after{
+  content: "";
+  position: absolute;
+  display: block;
+  height: 3px;
+  width: clamp(4rem, 8vw, 8vw);
+  background-color: #d3ab33;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 0.6rem;
+}
+
 .service h5,
 .service p {
   text-shadow: 0 2px 4px rgba(0,0,0,0.8);
