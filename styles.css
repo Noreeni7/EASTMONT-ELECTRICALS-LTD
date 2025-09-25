@@ -56,6 +56,21 @@ body {
   color: #d3ab33; 
 }
 
+.about-text{
+  position: relative;
+}
+
+.about-text::after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 3px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: clamp(4rem, 8vw, 8vw);
+  background-color: #d3ab33;
+  margin-top: 0.6rem;
+}
 
 .services{
     background-color: white;
