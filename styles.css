@@ -102,6 +102,15 @@ body {
   color: #FFC107 !important;
 }
 
+.highlight {
+  color: #FFC107;
+  transition: color 0.3s ease;
+}
+.highlight:hover {
+  color: #FFB300;
+}
+
+
 .projects{
     background-color: white;
 }
