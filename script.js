@@ -5,3 +5,15 @@ function setHeroHeight() {
 
 window.addEventListener('resize', setHeroHeight);
 window.addEventListener('load', setHeroHeight);
+
+
+// Animation on Scoll (AOS)
+document.addEventListener("DOMContentLoaded", function () {
+  AOS.init({
+    duration: 700,
+    easing: "ease-in-out",
+    once: true,
+    offset: 120,
+    mirror: false
+  });
+});
