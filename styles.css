@@ -97,6 +97,11 @@ body {
   text-shadow: 0 2px 4px rgba(0,0,0,0.8);
 }
 
+.service-card:hover h5.text-white,
+.service-card:hover p.text-white{
+  color: #FFC107 !important;
+}
+
 .projects{
     background-color: white;
 }
