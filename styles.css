@@ -11,6 +11,10 @@ body {
     background-color: white;
 }
 
+.navbar-nav .nav-link.active {
+    background-color: transparent!important;
+}
+
 .logo-img{
   height: 2.5rem;
   width: auto;
