@@ -16,6 +16,10 @@ body {
   width: auto;
 }
 
+section{
+  scroll-margin-top: 58px;
+}
+
 .hero {
   margin: 0;
   padding: 0;
