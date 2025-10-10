@@ -72,6 +72,10 @@ body {
   margin-top: 0.6rem;
 }
 
+.about-text {
+  transition: transform 0.8s ease-in-out;
+}
+
 .services{
     background-color: white;
 }
@@ -102,8 +106,33 @@ body {
   color: #FFC107 !important;
 }
 
-.projects{
-    background-color: white;
+.projects {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.projects .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.projects .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.projects .card-title {
+  font-weight: 600;
+  color: #003366;
+}
+
+.projects .card-text {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.card-img1-top {
+  height: 300px;
+  object-fit: cover;
 }
 
 .projects-text{
