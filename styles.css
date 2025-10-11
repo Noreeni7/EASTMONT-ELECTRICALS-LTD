@@ -2,6 +2,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+:root {
+  color-scheme: light;
+}
+
 .nav-link:hover,
 .nav-link.active {
   color: #0d6efd !important; 
